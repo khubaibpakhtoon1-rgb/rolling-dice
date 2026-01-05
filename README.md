@@ -1,2 +1,13 @@
 # rolling-dice
-https://github.com/khubaibpakhtoon1-rgb/rolling-dice/blob/471adf086aa08b32d961d2affa0b3f9fada4d6f0/README.md#L11
+import random
+while True:
+  roll = input("roling the dice y/n: " ).lower()
+  if roll == "y":
+    dice1 == random.randint(1, 6)
+    dice2 == random.randint(1, 6)
+    print({dice1}, {dice2})
+  if roll == "n": 
+    print("bye")
+    break
+  else:
+    print("invalid input")
